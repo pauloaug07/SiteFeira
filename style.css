@@ -19,20 +19,27 @@ body {
 }
 
 .nav-link {
-    margin-right: 35px;
-    text-align: left;
+    margin: 0 15px;
+    text-align: center;
 }
 
 .navbar-nav {
-    padding-right: 70px;
+    display: flex;
+    margin: 0; 
+    padding: 0; 
 }
 
 .nav-link:hover {
     color: rgb(62, 143, 236) !important;
 }
 
+.nav-item {
+    margin: 0 15px; 
+}
+
 .navbar-brand {
-    padding-left: 70px;
+    margin: 0 auto; 
+    text-align: center; 
 }
 
 .navbar-toggler {
@@ -40,6 +47,9 @@ body {
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     background-color: rgb(56, 56, 218);
 }
 
