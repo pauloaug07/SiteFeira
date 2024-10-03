@@ -60,17 +60,25 @@ body {
     text-align: justify;
 }
 
+.section_sobre {
+    padding-top: 3%;
+}
+
 .section_download {
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 section p {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1.1rem;
+}
+
+.download {
+    padding-top: 1%;
 }
 
 @media (max-width: 450px) {
@@ -93,5 +101,29 @@ section p {
 
     .download {
         width: 20% !important;
+    }
+
+    .ods-6 {
+        text-align: center;
+    }
+
+    .ods6 {
+        width: 60% !important;
+        padding-top: 5%;
+    }
+
+    #txt_ods {
+        font-size: small !important;
+    }
+}
+
+@media (max-width: 1080px) {
+    .ods-6 {
+        text-align: center;
+    }
+
+    .ods6 {
+        width: 60% !important;
+        padding-top: 5%;
     }
 }
