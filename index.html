@@ -85,7 +85,7 @@
             <h1 style="padding-top: 2.5rem; text-align: center;">Download</h1>
             <p>Clique aqui embaixo para baixar o nosso jogo!</p>
             <figure>
-                <a href="aula_03.apk" download="aula_03.apk" onclick="confirmDownload()"><img class="download"
+                <a onclick="confirmDownload()"><img class="download"
                         src="img/downloads.png" alt="" style="width: 8%"></a>
             </figure>
         </section>
@@ -106,7 +106,7 @@
     function confirmDownload() {
         if (confirm("Você quer baixar este arquivo?")) {
             window.location.href = "aula_03.apk";
-        }
+        } 
     }
 </script>
 
